@@ -6,6 +6,11 @@
     --slate: #395E66;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: var(--slate);
 }
@@ -25,4 +30,37 @@ h1 > .name {
 .logo {
     width: 250px;
     height: 105px;
+}
+
+/*CSS GRID STYLES*/
+.line {
+    width: 340px;
+    height: 2px;
+    border: none;
+    background-color: var(--shadow);
+    margin-top: 3px;
+}
+
+.section-header {
+    font-size: 50px;
+    color: var(--light);
+}
+
+.card {
+    background-color: var(--light);
+    width: 340px;
+    height: 90px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0px;
+    box-shadow: 7px 7px var(--shadow);
+    transition: box-shadow 0.25s ease;
+}
+
+.card:hover {
+    box-shadow: 7px 7px var(--green); 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
