@@ -8,6 +8,7 @@ Welcome to scribe! Scribe is a project based on my desperate need for a todo-lis
 ---
 
 ### Feature Overview
+1.
 
 
 ---
