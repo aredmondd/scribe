@@ -7,13 +7,13 @@
 }
 
 li {
-    padding: 37.5px 15px;
+    padding: 32.11px 15px;
 }
 
 li > a {
     font-family: "Inter", sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     letter-spacing: 0.5px;
     line-height: normal;
@@ -27,6 +27,8 @@ li > a:hover {
 }
 
 .navbar {
+    padding: 0px;
+    margin: 0px;
     list-style-type: none;
     overflow: hidden;
     align-items: center;
@@ -34,4 +36,9 @@ li > a:hover {
 
 .navbar > li {
     float: right;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
 }
