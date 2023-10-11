@@ -35,6 +35,8 @@ h3 {
     color: var(--green);
 }
 
+
+
 /*CSS GRID STYLES*/
 .line {
     width: 340px;
@@ -51,26 +53,36 @@ h3 {
 }
 
 .card {
+    display: grid;
+    grid-template-columns: 24px auto;
+
     background-color: var(--light);
     width: 340px;
-    height: 90px;
+    height: 80px;
     border-radius: 10px;
     margin: 10px 10px 10px 50px;
+
     box-shadow: 7px 7px var(--shadow);
     transition: box-shadow 0.25s ease;
 }
 
 .card > p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: 6px;
+    margin-left: 10px;
+
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: var(--green);
-    display: inline-block;
 }
 
 .card > span {
-    margin: 5px;
     display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
     color: var(--shadow);
 }
 
